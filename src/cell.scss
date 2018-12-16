@@ -18,19 +18,19 @@
     border-left: 1px solid #808080; 
 }
 .value_1{
-    background-image: url(./img/1.svg);
+    background-image: url(../img/1.svg);
 }
 .value_2{
-    background-image: url(./img/2.svg);
+    background-image: url(../img/2.svg);
 }
 .value_3{
-    background-image: url(./img/3.svg);
+    background-image: url(../img/3.svg);
 }
 .value_4{
-    background-image: url(./img/4.svg);
+    background-image: url(../img/4.svg);
 }
 .value_B{
-    background-image: url(./img/mine.svg);
+    background-image: url(../img/mine.svg);
     &:focus{
         background-color: red;
     }
@@ -51,7 +51,7 @@
     }
     &.marked{
         &::after{
-            background-image: url(./img/flag.svg);
+            background-image: url(../img/flag.svg);
             background-repeat: no-repeat;
             background-position: center;
         }
