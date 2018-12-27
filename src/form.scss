@@ -1,0 +1,26 @@
+.input-field {
+    position: relative;
+    margin: 0.75em 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    label {
+        display: block;
+        position: absolute;
+        color: gray;
+        font-size: 0.75em;
+        margin: 0 0.3em;
+        transform: translateY(-50%);
+    }
+    input {
+        display: block;
+        width: 100%;
+        -webkit-appearance: none;
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        padding: 0.5em 0.3em;
+    }
+}
+
+form{
+    padding: 0 0.5em;
+    box-sizing: border-box;
+}
